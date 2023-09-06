@@ -10,4 +10,8 @@
     user:
       name: alex
       state: absent
+  - name: "ensure Buri user exists"
+    user:
+      name: buri
+      state: present
       
